@@ -52,6 +52,8 @@ echo sksksksks|sed 's/sk/SK/2g'
 ºó¶Ë¸ºÔð¼ÆËã³öÍ¼ÐÎ£¬ÓÃ×ø±êµÄÐÎÊ½´æ´¢¡£
 ËùÒÔ£¬Ç°¶ËÖ»¹ØÐÄ¸øÎÒµÄ×ø±ê£»
 ºó¶ËÖ»¹ØÐÄÈçºÎ¼ÆËã³öÐèÒªµÄ×ø±ê¡£
+Õý½»Ë¼Ïë£º
+¾ÍÏñÒ»¸öÈýÎ¬µÄ×ø±ê£¬Ã¿Ò»¸ö×ø±êÖá¶¼¸úÁíÍâÁ½¸ö´¹Ö±£¬µ¥¸ö×ø±êÏµÈçºÎ·¢Õ¹²»»á¶ÔÆäËûÁ½Ïµ²úÉúÓ°Ïì£¬Ö»ÔÚËûÃÇµ÷ÓÃµÄµØ·½²úÉúÒ»´Î½»¼¯¡£
 
 7.ÈçºÎ¿Ë·þÇéÐ÷µÍÂä£º¿ÌÒâÔË¶¯£»¿ÌÒâÉç½»£»¿ÌÒâÊéÐ´£»¿ÌÒâ¸ßÐË£»¿ÌÒâÇåµ¥¡£
 8.Áª»úÈÕÖ¾£¬¹éµµÈÕÖ¾£¬Áª»úÖØ×öÈÕÖ¾£»Áª»úÖØ×öÈÕÖ¾ÊÇ±¾µØ»®·ÖµÄ¹Ì¶¨ÇøÓò£¬·Ö³É¼¸¿é£¬Ñ­»·Ê¹ÓÃ£»
@@ -75,6 +77,8 @@ springboot¶ÔfreemarkerÒ²½øÐÐÁËÕûºÏ¡£ÏÖÔÚÎÒÃÇ°ÑhtmlÒ³ÃæÄÚÌí¼Ófreemarker±êÇ©Ö®ºó£¬
 ÏÖÔÚ£¬ÓÉfreemarkerÕâ¸öservlet£¬Í³Ò»¸ºÔð¶ÁÈ¡´ó¼ÒÇëÇóµÄftlÎÄ¼þ£¬°ÑÆäÖÐµÄ±êÇ©ÄÚÈÝÌî³äºó£¬·µ»Øµ½ä¯ÀÀÆ÷¡£Õâ¸Ð¾õÓÐµãÏñstrutsµÄactionServlet£¬ÓÐµãÏñspringµÄspringservlet¡£
 ÕâÑùµÄºÃ´¦Ò²ÊÇÏÔ¶øÒ×¼û£¬ÒÔÇ°ÏîÄ¿ÖÐ³ä³âÁË´óÁ¿µÄservlet£¬¿´ÆðÀ´·Ç³£ÔÓÂÒ¸´ÔÓ¡£ÏÖÔÚ°ÑÕâÐ©servlet½øÐÐÁË·ÖÀà£¬ÓÉ¸÷×Ô¶ÔÓ¦µÄservlet½øÐÐ¹ÜÀí£¬ËûÃÇÖ®¼äµÄÖ°Ôð¸ü¼ÓÇåÎúÁË£¬ÏîÄ¿Ö®¼ä
 ¸ü¼Ó¶ÀÁ¢£¬Õâ²»ÕýÊÇÃæÏò¶ÔÏóµÄ·â×°Ë¼ÏëÃ´¡£
+Ê¹ÓÃfreemarkerµÄÔ­Òò£ºÎªÁËÊµÏÖ¶¯Ì¬µÄÊý¾Ý°ó¶¨¡£ÒÔÇ°ÓÃjspÀïÃæÇ¶Èëjava´úÂëµÄ³óÂª·½Ê½£¬×îºó°Ñjsp±àÒë³Éservlet£¬¶¯Ì¬Ìí¼ÓÊý¾ÝºóÔÚÉú³Éhtml£¬·µ¸øä¯ÀÀÆ÷¡£
+freemarkerÔòÊÇÍ¨¹ýÒ»¸ö¹ýÂËÆ÷£¬°ÑÇëÇóµÄ.ftlÎÄ¼þÖÐµÄ±êÇ©Ìæ»»³ÉÊý¾Ýºó£¬°Ñ×îÖÕµÄHTML·µ¸øä¯ÀÀÆ÷¡£
 
 
 13.javascript Óë ä¯ÀÀÆ÷£¬´°¿Ú£¬ÆÁÄ»µÄ¹ØÏµ¡£
@@ -434,10 +438,12 @@ hashmap ÊÇ»ùÓÚÊý×éºÍÁ´±íµÄ£¬hashMap Ä¬ÈÏÉêÇë´óÐ¡Îª16 µÄÊý×é£¬µ±´æ´¢Ê±£¬¸ù¾ÝkeyµÄ
  http://developer.51cto.com/art/201710/555362.htm?utm_source=debugrun&utm_medium=referral
 1.ÈÕÖ¾Éè¼ÆµÄÕý½»Ë¼Ïë£º
 ¿ÉÒÔÈÎÒâÀ©Õ¹Appender½Ó¿Ú¶øÓ°Ïì²»µ½LoggerºÍFormatter£¬ ÎÞÂÛÓÐ¶àÉÙ¸öLogger ¶¼Ó°Ïì²»ÁËAppenderºÍFormatter £¬ Õâ¾ÍÊÇÕý½»¡£
+
 2. Simple Logging Facade for Java£¬¼ò³ÆSLF4J
 ¶ÔÓÚLog4j , JDK logging, tinylog µÈ¹¤¾ß£¬ ÐèÒªÒ»¸öÊÊÅä²ã£¬ °ÑSLF4J µÄAPI×ª»¯³É¾ßÌå¹¤¾ßµÄµ÷ÓÃ½Ó¿Ú¡£
 LogbackÕâ¸ö¹¤¾ß Ö±½ÓÊµÏÖÁËSLF4JµÄAPI£¬ËùÒÔÁ¬ÊÊÅä²ã¶¼²»ÐèÒªÁË£¬ ÓÃÆðÀ´ËÙ¶È·É¿ì£¬Ð§ÂÊ×î¸ß£¬SLFJ4+Logback ³ÉÎªÁËºÜ¶àÈËµÄ×î°®£¬
 ´óÓÐ³¬Ô½Apache Common Logging + Log4j Ö®ÊÆ¡£
+
 3.logback·ÖÎªÒì²½ºÍÍ¬²½Á½ÖÖ¼ÇÂ¼·½Ê½£»Í¬²½¼´ÓÐÈÕÖ¾ÂíÉÏÐ´´ÅÅÌ£»Òì²½£¬¼´ÓÐÈÕÖ¾ÔÝÊ±Ð´µ½»º³åÇø£¬´ý»º³åÇøÂúÁËÔÙÐ´´ÅÅÌ£¬¼õÉÙ´ÅÅÌIO£¬Ìá¸ßÏµÍ³ÏìÓ¦Ê±¼ä¡£
 Òì²½·½Ê½Èç¹ûÓöµ½ÏµÍ³±ÀÀ££¬ÓÐ¿ÉÄÜ»áÈÃ»º³åÇøÄÚµÄÈÕÖ¾À´²»¼°Ð´µ½´ÅÅÌ´Ó¶ø¶ªÊ§£¬¿ÉÒÔÊ¹ÓÃjvm¹³×Ó£¬jvmShutdownHook
 4.jvmshutdownhook£¬Êµ¼ÊÊÇÔÚruntimeÉÏ×¢²áµÄÒ»¸öÏß³Ì£¬µ±jvm¹Ø±ÕÊ±£¬jvm»á±éÀú¹³×ÓÁÐ±í£¨hashmap£¬ÒâÎ¶×Å²»ÄÜÖØ¸´×¢²á¹³×Ó£©£¬Öð¸öÖ´ÐÐrun·½·¨¡£ÓÉÓÚÊÇ¶à¸öÏß³Ì²¢·¢£¬
@@ -457,7 +463,8 @@ javaÖÐµÄÊÂ¼þ»úÖÆ£ºEventObject,EventListener,EventSource
 Ïû·ÑÕßºÍÉú²úÕßÊÇ×èÈûÔÚ³Ø×ÓÉÏµÄ¡£´ó¼ÒÍ¬²½ÐÅÏ¢Êµ¼ÊÉÏÊÇÍ¨¹ý³Ø×ÓÕâ¸öÁÙ½ç×ÊÔ´½øÐÐµÄ£¬³Ø×Ó¿ÉÒÔ¿´×öÒ»¸öÐÅºÅÁ¿¡£
 ÄÇÃ´ÊÂ¼þ»úÖÆÖÐ£¬¼àÌýÆ÷×¢²áÔÚÊÂ¼þÔ´ÉÏ£¬Ã»ÓÐÊÂ¼þ·¢ÉúÊ±£¬ÊÂ¼þÔ´ÊÇ×èÈûÔÚ×ÔÉíÎ¬»¤µÄÒ»¸öÊÂ¼þÁÐ±íÉÏµÄ¡£Ò»µ©ÊÂ¼þ·¢Éú£¬ÊÂ¼þÁÐ±í²»Îª¿Õ£¬
 ¾Í»½ÐÑÊÂ¼þÔ´µ÷ÓÃ¼àÌýÆ÷×¢²á·½·¨£¬´¦Àí¶ÔÓ¦µÄÊÂ¼þ¡££¨ÎÒµÄÕâÖÖÀí½â´æÔÚÒ»¸öÎÊÌâ£¬×èÈûÔÚ×ÔÉíÁÐ±íÒâÎ¶×ÅÒ»¸öÊÂ¼þÔ´¾ÍÊÇÒ»¸öÏß³Ì£¬ÏÔÈ»ÔÚ¶àÊÂ¼þÔ´µÄÓ¦ÓÃÖÐ¾Í»áÓÐ´óÁ¿
-Ïß³Ì×èÈû£¬ÕâÓ¦¸ÃÊÇ²»¿ÉÄÜµÄ¡£Òò´Ë»áÓÐÒ»¸ö×¨ÃÅµÄÄ£¿éÀ´·Ö·¢ÊÂ¼þ£¬ÊÂ¼þÔ´ÊÇ±»¶¯µ÷ÓÃÀ´Ö´ÐÐµÄ£¬¶ø²»ÊÇ×èÈûµÈ´ýÀ´Ö÷¶¯Ö´ÐÐµÄ¡££©
+Ïß³Ì×èÈû£¬ÕâÓ¦¸ÃÊÇ²»¿ÉÄÜµÄ¡£Òò´Ë»áÓÐÒ»¸ö×¨ÃÅµÄÄ£¿éÀ´·Ö·¢ÊÂ¼þ£¬ÊÂ¼þÔ´ÊÇ±»¶¯µ÷ÓÃÀ´Ö´ÐÐµÄ£¬¶ø²»ÊÇ×èÈûµÈ´ýÀ´Ö÷¶¯Ö´ÐÐµÄ¡£jsµÄÖ´ÐÐÊÇµ¥Ïß³ÌµÄ£¬²»»áÓÐÄÇÃ´¶à×èÈûµÄÏß³Ì
+À´Î¬»¤ÊÂ¼þÁÐ±í£¬ÎÒ¾õµÃÊÂ¼þÁÐ±íÓ¦¸ÃÊÇÓÉÒýÇæÀ´Î¬»¤µÄ£¬Ò»¸öÈ«¾ÖµÄÁÐ±í¡££©
 
 ==============================================================================
  Êý¾Ý¿â¶ÁÐ´·ÖÀëÉè¼Æ
@@ -489,7 +496,7 @@ docker images ºÍcontainerµÄÇø±ð¡£imagesÊÇÒ»×éÖ»¶ÁµÄÎÄ¼þ£¬¶à¸öimagesµþ¼Ó£»Ö´ÐÐ¾µÏ
 Ò²¾ÍÊÇËµcontainer=images+¿É¶Á²ã¡£
 docker commit containerÊ±£¬¾Í°Ñcontainer±ä³ÉÁËÖ»¿É¶ÁÎÄ¼þ£¬´Ó¶ø±ä³ÉÁËimages¡£
 https://www.cnblogs.com/bethal/p/5942369.html
-
+arr[i>>32] =| (1<<(i&31))
 AUFS -> Another Union File System£¬AUFSµÄ¼¼Êõ¿ÉÒÔÈÃ¶à¸öÎÄ¼þÄ¿Â¼union³ÉÒ»¸öÐÂµÄÄ¿Â¼£¬²¢ÇÒ¿ÉÒÔ¶ÔÕâ¸öÐÂµÄÄ¿Â¼½øÐÐ¶ÁÐ´²Ù×÷¡£
 ÄÇÕâÓÐÊ²Ã´ÓÃÄØ£¿Èç¹ûÄãÓÐÒ»ÕÅÖ»¶ÁµÄcdÊý¾ÝÅÌ£¬µ«ÊÇÄãÈ´Ïë±à¼­ÀïÃæµÄÄÚÈÝ£¬ÄãÍ¨³£µÄ×ö·¨ÊÇ²»ÊÇ°ÑÄÚÈÝ¿½±´µ½±¾µØÓ²ÅÌ£¬È»ºóÔÙ±à¼­¡£
 µ«Èç¹ûÄã¿ÉÒÔÀûÓÃAUFS¼¼Êõ£¬Äã¾Í¿ÉÒÔ½«Ó²ÅÌÖÐµÄÒ»¸ö¿ÕÄ¿Â¼ºÍÄãµÄcdÊý¾ÝÅÌ½øÐÐunionÐÎ³ÉÒ»¸öÐÂµÄÄ¿Â¼£¬½Ó×ÅÄã¶ÔÕâ¸öÄ¿Â¼¶ÁÈ¡£¬
@@ -500,11 +507,12 @@ java Native·½·¨
 javaÖÐÓÐºÜ¶àÀà¶¨ÒåÖÐ£¬³öÏÖÒÔnative¹Ø¼ü×ÖÐÞÊÎµÄ·½·¨¡£ÕâÐ©·½·¨Ã»ÓÐ·½·¨Ìå£¬¾ÍÊÇË×³ÆµÄ±¾µØ·½·¨¡£ÒâË¼ÊÇ£¬ÕâÐ©·½·¨Ê¹ÓÃjavaÊµÏÖ¿ÉÄÜÐ§ÂÊ²»¸ßÉõÖÁÃ»·¨ÊµÏÖ£¬
 ÐèÒªÁ´½ÓÆäËûÓïÑÔ±ÈÈçC/C++À´ÊµÏÖ¡£Õâ¾ÍÒâÎ¶×Å£¬ÔÚjavaÖÐÒ²ÊÇ¿ÉÒÔµ÷ÓÃÆäËûÓïÑÔµÄ´úÂëµÄ¡£¹þ¹þ¹þ£¡
 Ò»¸öÊ¹ÓÃjavaµ÷ÓÃCÓïÑÔ±àÐ´µÄ³ÌÐòµÄÍêÕûÀý×Ó¡£ÔÚÕâ¸öÀý×ÓÖÐ£¬C´úÂë×îÖÕ±»±àÒë³ÉÒ»¸ödllÎÄ¼þ£¬dynamic link library£¬È»ºóÊ¹ÓÃsystem.load()¼ÓÔØ¡£
+DLL¶ÔÓ¦LinuxÖÐµÄsoÎÄ¼þ£¬share object
 jvm¾Í»áÊ¹ÓÃÏµÍ³µ÷ÓÃÖ´ÐÐÕâ¸öc´úÂë¡£JNI java native Interface
 https://www.cnblogs.com/szlbm/p/5504603.html
 ==============================================================================
  Óë¶ñÁú²ø¶·¹ý¾Ã£¬×ÔÉíÒà³ÉÎª¶ñÁú¡£
-ÄýÊÓÉîÔ¨¹ý¾Ã£¬ÉîÔ¨½«»ØÒÔÄýÊÓ¡£
+ÄýÊÓÉîÔ¨¹ý¾Ã£¬ÉîÔ¨½«»ØÒÔÄýÊÓ¡£3
 ÎÒÃÇÎÞ·¨¸Ä±äÄ³ÀàÈËµÄÆ·ÐÔºÍËØÖÊ£¬µ«ÎÒÃÇ¿ÉÒÔÑ¡Ôñ²»¾À²ø¡£
 ²»¾À²ø²»ÊÇÅ³Èõ£¬¶øÊÇÒ»ÖÖÖÇ»Û¡£
 ¡ª¡ªÄá²É¡¶ÉÆ¶ñµÄ±Ë°¶¡·
@@ -512,3 +520,115 @@ https://www.cnblogs.com/szlbm/p/5504603.html
 Í¼½â¶ÑÅÅÐòËã·¨£º
 https://www.cnblogs.com/chengxiao/p/6129630.html
 ÏÈÐò£¬ÖÐÐò£¬ºóÐò£¬ÊÇÏà¶ÔÓÚ·ÃÎÊ¸ùÔªËØµÄË³Ðò¡£×óÓÒÔªËØÓÀÔ¶ÊÇÏÈ×óºóÓÒ¡£
+
+CISCµÄÓ¢ÎÄÈ«³ÆÎª¡°Complex Instruction Set Computer¡±£¬¼´¡°¸´ÔÓÖ¸ÁîÏµÍ³¼ÆËã»ú¡±
+RISCµÄÓ¢ÎÄÈ«³ÆÎª¡°Reduced Instruction Set Computer¡±£¬¼´¡°¾«¼òÖ¸Áî¼¯¼ÆËã»ú¡±
+
+ARM´¦ÀíÆ÷ÊÇÓ¢¹úAcornÓÐÏÞ¹«Ë¾Éè¼ÆµÄµÍ¹¦ºÄ³É±¾µÄµÚÒ»¿îRISCÎ¢´¦ÀíÆ÷¡£È«³ÆÎªAdvanced RISC Machine¡£
+CPUÖÆÔì¹ý³Ì£º
+https://yq.aliyun.com/articles/57082
+
+¸÷ÖÖÅÅÐòËã·¨½éÉÜ£º
+http://blog.csdn.net/mjl960108/article/details/53440278
+ÖÆ¶¨Ò»¸öÐ¡¼Æ»®£º±¾ÖÜÄÚÃ¿ÌìÒ»¸ö£¬ÕÆÎÕÕâÐ©Ëã·¨¡£
+2ÔÂ26£ºÑ¡ÔñºÍ²åÈë£»
+2ÔÂ27£º¿ìËÙºÍ¶ÑÅÅÐò£»
+2ÔÂ28£ºÏ£¶ûÅÅÐò£»
+2ÔÂ29£º¹é²¢ÅÅÐò£»
+2ÔÂ30£º¼ÆÊýÅÅÐò¡¢Í°ÅÅÐò£¬»ùÊýÅÅÐò
+==============================================================================
+https://www.cnblogs.com/learnhow/p/5694876.html
+http://www.sojson.com/shiro
+Shiro¶ÔÓÃ»§µÄÔ¼ÊøÒ²²ÉÓÃÁËÕâÑùµÄ·½Ê½¡£AuthenticationInfo´ú±íÁËÓÃ»§µÄ½ÇÉ«ÐÅÏ¢¼¯ºÏ£¬AuthorizationInfo´ú±íÁË½ÇÉ«µÄÈ¨ÏÞÐÅÏ¢¼¯ºÏ¡£
+ÏÈËµÒ»¸öÌâÍâ»°£¬FilterÊÇ¹ýÂËÆ÷£¬interceptorÊÇÀ¹½ØÆ÷¡£Ç°Õß»ùÓÚ»Øµ÷º¯ÊýÊµÏÖ£¬±ØÐëÒÀ¿¿ÈÝÆ÷Ö§³Ö¡£ÒòÎªÐèÒªÈÝÆ÷×°ÅäºÃÕûÌõFilterChain²¢Öð¸öµ÷ÓÃ¡£
+ºóÕß»ùÓÚ´úÀíÊµÏÖ£¬ÊôÓÚAOPµÄ·¶³ë¡£Èç¹ûÏ£ÍûÔÚWEB»·¾³ÖÐÊ¹ÓÃShiro±ØÐëÊ×ÏÈÔÚweb.xmlÎÄ¼þÖÐÅäÖÃ¡£
+
+shiro£ºÐèÒªÅäÖÃ¹ýÂËÆ÷£¬·ÅÔÚwebxmlÀï£»
+           ÐèÒªspring£¬Ê¹ÓÃspring´úÀíµÄ¹ýÂËÆ÷£»
+	   ÐèÒªecache£¬ÐèÒª»º´æÒ»Ð©ÓÃ»§ºÍÈ¨ÏÞÐÅÏ¢£»
+	   Ìá¹©ÁËjstl±êÇ©£¬¿ÉÒÔÔÚjsp£¬htmlÖÐÊ¹ÓÃ£¬Ìá¹©¶ÔÁ´½ÓµÄ·ÃÎÊÈ¨ÏÞ¿ØÖÆ£»ÐèÒªÔÙjspÍ·ÒýÓÃÒ»ÏÂ±êÇ©¿â£»
+	   realm¾ÍÊÇÓë×Ô¼ºÅäÖÃµÄÓÃ»§¡¢½ÇÉ«¡¢È¨ÏÞÐÅÏ¢½øÐÐ¶Ô½ÓµÄÇÅÁº¡£¼Ì³ÐrealmÀà£¬ÊµÏÖÓÃ»§ÈÏÖ¤ºÍÈ¨ÏÞÈÏÖ¤Á½¸ö·½·¨£¬¾ÍOKÁË¡£ÊÇ²»ÊÇÒâÏë²»µ½µÄ¼òµ¥¡£
+	   ÎªÊ²Ã´¶ÔÏó¿ÉÒÔ´æ¼¯ºÏ£¿ÒòÎªÀïÃæÓÐ¸ö¼¯ºÏµÄ³ÉÔ±±äÁ¿°¡£¬ÎÒ²Ù£¡
+
+freemaker£ºÊÇÒ»ÖÖÄ£°åÒýÇæ¡£°ÑÒ³ÃæµÄ¾²Ì¬²¿·Ö+ÓÃfreemarker±êÇ©×é³ÉµÄ¶¯Ì¬²¿·Ö£¬×ö³ÉÄ£°å£»ÔÚÓÃ»§ÇëÇó¶ÔÓ¦Ò³ÃæÊ±£¬freemarkerÒýÇæ½éÈë£¬
+°Ñ¶¯Ì¬ÄÚÈÝÌæ»»³ÉÇëÇóµÄÊý¾Ý£¬ÔÙ°Ñ×é×°ºÃµÄÒ³Ãæ·µ»Ø¸øÓÃ»§¡£
+ÅäºÏspringMVCÊ¹ÓÃÊ±£¬ÒýÈëspring-freemarkerÒÀÀµ°ü£¬ÔÚMVCÅäÖÃÒ³ÃæresolveÊ±£¬Ê¹ÓÃfreemarkerÌá¹©µÄ´¦ÀíÆ÷¼´¿É¡£
+
+1 ÖªµÀÁËFreeMarkerÊÇÒ»¿éÄ£°æÒýÇæ£¬¿ÉÒÔÉú²úxml£¬html£¬javaµÈÎÄ¼þ
+
+2 ÖªµÀÁËFreeMarkerÎÄ¼þÌá¹©Õ¼Î»·û£¬javaÎÄ¼þÌá¹©Êý¾Ý£¬Í¨¹ýFreeMarkerÄ£°æÒýÇæÉú²úÓÐÊý¾ÝµÄÒ³Ãæ£¬ÎÄÖÐÊÇ½«Êý¾Ý·ÅÔÚMapÖÐ¡£webÓ¦ÓÃ¿ÉÒÔÓÃsetter/getter ·½·¨
+
+3 ÖªµÀÁËFreeMarkerÓï·¨ÖÐ×Ö·û´®µÄÏÔÊ¾ÌØÊâ×Ö·û£¬½ØÈ¡µÄ²Ù×÷¡£ÒÔ¼°Ò»Ð©ÄÚÖÃ·½·¨µÄÊ¹ÓÃ
+
+4 ÖØµãÁË½âFreeMarkerµÄ¿ÕÅÐ¶ÏÖªÊ¶µã¡£ÅÐ¶Ï±äÁ¿ÊÇ·ñÎª¿ÕÓÃ "??" £¬Èç¹û±äÁ¿Îª¿ÕÉèÖÃÄ¬ÈÏÖµ¡£Èç¹û²»×¢Òâ¿ÕÎÊÌâ£¬¿ÉÄÜ»á³öÏÖ»ÆÉ«Ò³ÃæµÄÌáÊ¾Å¶£¡
+
+5 FreeMarkerµÄºê¸ÅÄî£¬ÃüÃû¿Õ¼ä£¬ÒýÈëÎÄ¼þ£¬¸ø±äÁ¿¸³Öµ£¬¼¯ºÏµÄ±éÀúµÈ¡£
+
+6 Freemarker ÕûºÏSpringMVC¡£
+µ½ÕâÀïFreeMarkerµÄÈëÃÅ¾Í½áÊøÁË£¬ÊÇ²»ÊÇºÜ¼òµ¥¡£Èç¹ûÓÐÊ²Ã´²»¶ÔµÄµØ·½£¬ÇëÖ¸Õý£¡
+
+freemarkerÓï·¨£º
+http://blog.csdn.net/fhx007/article/details/7902040/
+==============================================================================               
+Ã¿Ìì¶ÁÒ»±é³ÌÐò¿ª·¢µÄÊõÓëµÀ¡£µ±¸Ð¾õÀ§»ó£¬¼èÄÑµÄÊ±ºò£¬ÏëÒ»ÏëÔ¶·½¡£
+ÏÖÔÚµÄÎÊÌâÊÇ²ú³öÌ«ÉÙ£¬Ã»ÓÐ×÷Æ·¡£
+==============================================================================     
+½Ó¿Ú£¬ÊµÏÖ£¬³éÏóÀà£¬¼Ì³Ð
+´«µÝ½Ó¿Ú
+
+Ò»ÒÚÊý¾ÝÅÅÐò£º1£©Ê¹ÓÃ¹é²¢Ëã·¨£¬ÏÈ²ð³É1kwµÄÊý¾Ýµ¥Ôª£¬·Å½øtreeset¼¯ºÏ£¬È»ºóµü´ú¾ÍÊÇÓÐÐòÊýÁÐ£¬°ÑÓÐÐò¼¯ºÏ·Å½øÁÙÊ±ÎÄ¼þ£»È»ºóÊ¹ÓÃ¹é²¢Ëã·¨½«10¸öÊý¾Ýµ¥ÔªºÏ²¢¡£
+			¹ØÓÚ¹é²¢Ëã·¨£ºÒÔµÚÒ»¸ö¼¯ºÏÎª»ù×¼£¬È¡³öµÚÒ»¸öÔªËØ£¬ÓÃÆäËû9¸öµÄÔªËØÓëËû×ö±È½Ï£¬½«×îÐ¡µÄÐ´Èë×îÖÕµÄ¼¯ºÏ£»È»ºóµ¯³öÔªËØµÄ¼¯ºÏÖ¸ÕëÍùºóÒÆ¶¯Ò»Î»£¬ÈÔ
+			ÓÃ10¸öÔªËØÈ¡×îÐ¡µÄÐ´Èë×îÖÕ¼¯ºÏ¡£
+			2£©ÁíÒ»¸öËã·¨Ê¹ÓÃÎ»ÏòÁ¿¡£
+			8  00000000 00000000 00000000 00100001
+
+			    00000001 01101101 01000100 11110101
+                            00000000 00000000 00000000 00011111
+
+		            00000000 00000000 00000000 00010101
+				
+			    00000000 10001000 00000000 00100001  == 33
+
+			    00000000 00000000 00000001 00000000
+
+			    00000000 00000000 00000000 00000000
+			    10000000 00000000 00000000 0000 0000
+
+			    3£©&ÓëÔËËã£¬ÇåÁãµÈ
+
+			    11111111 11111111 11111111 11111110
+			    00000000 00000000 00000000 11111111
+
+			    00000000 00000000 00000000 11111110
+
+			    00000000 00000000 00000001 00000000
+
+			    11111111111111111111111111111110
+			    10000000 00000000 00000000 00000010
+
+			    100,000,000 = 2,147,483,647  =2^31/2^4=2^27*2^5=2^32 bit/2^33=1/2G-500M=1.3ÒÚ=1ÒÚ=384m
+			    100, 00,00 0,000
+				a[i >>5] |= (1 << (i & 31));
+
+			    4£©48%32=16 <=> 48&31
+			    00000000 00110000
+			    
+			    00000000 00011111
+
+			    00000000 00010000
+
+==============================================================================     
+Spring-AOP£º
+ÇÐÈëµã£º
+²Ù×÷ÄÚÈÝ£º
+¿ØÖÆÊÂÎñ£»È¨ÏÞ£»»º´æµÈ£»
+
+websocket:
+1.¿Í»§¶Ë·¢ÆðÇëÇó£»·¢ÆðÒ»¸öhttpÇëÇó£¬°üº¬Ò»¸öÌØÊâµÄÍ·ÐÅÏ¢£»
+2.·þÎñ¶ËÏìÓ¦ÇëÇó£»½¨Á¢Ò»¸ötcpÁ´½Ó£¬¿Í»§¶ËºÍ·þÎñ¶Ë¿ÉÒÔËæÒâÍÆËÍÏûÏ¢£»Ö®Ç°Ê¹ÓÃÂÖÑµµÄ·½Ê½·¢ÆðhttpÇëÇó£¬Í·ÐÅÏ¢Ì«´ó£¬Õ¼ÓÃ´ø¿í¡£
+3.Á´½Ó½¨Á¢£»
+
+ÐÐÄÚÔªËØºÍ¿é¼¶ÔªËØÏê½â£º
+http://blog.csdn.net/qingyafan/article/details/52203663
+
+
