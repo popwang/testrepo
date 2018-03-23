@@ -1,7 +1,77 @@
+==============================================================================
+A*Ñ°Â·£»ÓÃÓÚÓÎÏ·ÖÐµÄ×î¶ÌÑ°Â··½°¸£»
+
+
+==============================================================================
+<repositories>  
+    <repository>    
+        <id>Ibiblio</id>    
+        <name>Ibiblio</name>    
+        <url>http://www.ibiblio.org/maven/</url>  
+    </repository>  
+    <repository>    
+        <id>PlanetMirror</id>    
+        <name>Planet Mirror</name>    
+        <url>http://public.planetmirror.com/pub/maven/</url>  
+    </repository>
+</repositories>
+==============================================================================
+MVVM£¬Êý¾ÝË«Ïò°ó¶¨£»
+
+Ò»Ö±ÒÔÀ´£¬ÓÐ¸öË¼ÏëÉÏµÄÎóÇø£ºÒÔÎªÊµÏÖ½Ó¿Ú£¬²»ÊÇ×ÓÀàºÍ¸¸ÀàµÄ¹ØÏµ¡£
+javaÃæÏà½Ó¿Ú±à³Ì£¬¶àÌ¬£¬¶¼ÔÚËµÃ÷Ò»¸öÊÂÊµ£ºÊµÏÖ½Ó¿Ú£¬Ò²ÊÇÒ»ÖÖ¼Ì³Ð¹ØÏµ£¬¼´×ÓÀàÓµÓÐÁË¸¸ÀàµÄ·½·¨£¬¾Í¿ÉÒÔ¿´×öÊÇ¸¸ÀàµÄÀàÐÍ¡£
+¿ÉÄÜÊµÏÖ½Ó¿Ú¸ü¶àÌåÏÖÔÚÓµÓÐ¸¸ÀàµÄÐÐÎªÌØÕ÷£¬ÓÃÔÚÊ¹ÓÃÀà´«µÝ½Ó¿ÚµÄ·½Ãæ¡£
+
+lambda±í´ïÊ½£¬ºÜ¶àÊ±¼äÊÇÎªÁËÈ¡´úÄäÃûº¯Êý£»ÏñrunableÕâÖÖ½Ó¿Ú£¬ÊµÏÖÁËËü£¬¾Í±ä³ÉÒ»¸ö¾ß±¸ÁË¶àÏß³ÌÄÜÁ¦µÄÀà¡£
+½áºÏÃæÏò½Ó¿ÚµÄ±à³ÌÌØÐÔ£¬ÎÒÖ±½ÓnewÒ»¸ö½Ó¿Ú£¬Ë³±ãoverride½Ó¿ÚÀïÃæµÄ³éÏó·½·¨£¬¸øËüÒ»¸öÊµÏÖ£¬Õâ¾ÍÊÇÓÃÄäÃûÀà´´½¨ÁË¶ÔÏó¡£ÒòÎªÊµÏÖÁË½Ó¿ÚÊµ¼ÊÉÏ²úÉúÁËÒ»¸öÐÂÀà£¬
+µ«ÕâÀï²¢Ã»ÓÐ³öÏÖÐÂÀàµÄÃû×Ö£¬ËùÒÔÊÇÄäÃûÀà¡£
+
+»¹ÊÇÄÇ¾ä»°£ºÈç¹ûÄã¾õµÃÐÂµÄ¶«Î÷ºÜÄÑ¶®£¬¾Í¶à¿´¿´¸úÕâ¸öÎÊÌâÏà¹ØµÄ»ù´¡¸ÅÄî°É£¡Èç¹ûÄã¾õµÃÐÂµÄ¶«Î÷ºÜÄÑ¶®£¬¾Í×öÒ»Ð©²»Ò»ÑùµÄÊÂÀ´´ÙÊ¹×Ô¼ºµÄË¼Ïë·¢Éú¸Ä±ä£¬¶ø²»ÊÇ×ø×ÅµÈËü¸Ä±ä¡£
+
+Èí¼þ¹¤³ÌµÄÇ°±²ÃÇ£¬·Ü¶·¶àÄê£¬´´ÔìÁËÎÞÊýÓÅÐãµÄÀà¿â£¬ÖÕ¼«Ä¿±ê¾ÍÊÇÊµÏÖ´úÂëµÄ¸´ÓÃ£¬ÈÃÎÒÃÇÓÃÓÅÑÅµÄ£¬³£¹æµÄ²Ù×÷´¦Àí¸´ÔÓµÄÒµÎñ£¬±ÜÃâÓ²±àÂë¡£
+Èç¹ûÎÒ»¹ÊÇÕâÑù°ÔÍõÓ²ÉÏ¹­£¬µÈÓÚËµÕâÐ©ÄêÒ»µã½ø²½¶¼Ã»ÓÐ£¬¶øÇÒÒ²Ã»ÓÐ½ø²½µÄËßÇó¡£
+==============================================================================
+java7ÌØÐÔ£º
+1.switch case¿ÉÒÔÊ¹ÓÃstring£»
+2.Ö§³Ö2½øÖÆ0b¿ªÍ·£¬Ö§³ÖÊý×ÖÖÐ¼äÓÐÏÂ»®Ïß£¬½âÎö×Ô¶¯ÌÞ³ý£»
+3.Ò»´Î×¥¶à¸öÒì³££»ÓÃ|¸ô¿ª£»
+4.try-with-resource£¬ÔÚtryÖÐ´ò¿ª×ÊÔ´£¬ÏµÍ³×Ô¶¯ÔÚÊ¹ÓÃÍêºó¹Ø±Õ£»
+5. Map<String, List<String>> anagrams = new HashMap<>(); 
+6.¼¯ºÏÀà¿ÉÒÔÏñjsÖÐµÄÊý×éÒ»Ñù¸³ÖµºÍÒýÓÃÁË¡£
+List<String> list = ["item"];       
+    String item = list[0];         
+    Set<String> set = {"item"};              
+    Map<String, Integer> map = {"key" : 1};       
+    int value = map["key"];     
+
+java8ÌØÐÔ£º
+1.lambda±í´ïÊ½£»
+2.ÐÂÔöstream£¬Date£¬Time£¬Base64¹¤¾ßÀà£»
+3.Ê¹ÓÃmetaspace£¬Ôª¿Õ¼äÌæ´úpermgenÇø£»
+4.ÀàÒÀÀµ·ÖÎöÆ÷£ºjdeps£¬¿ÉÒÔÒÔ°ü£¬Ä¿Â¼£¬ÎÄ¼þ¼Ð×÷ÎªÊäÈë£¬Êä³öÒÀÀµ¹ØÏµ£¬Ã»ÓÐµÄ»áÏÔÊ¾ not found
+5.jjs£¬¿ÉÒÔÖ´ÐÐJavaScript´úÂë£»
+==============================================================================
+kafka:
+Ò»¸ö·Ö²¼Ê½ÏûÏ¢¶ÓÁÐ£¬½ÓÊÕ¶à¸öÉú²úÕßµÄÏûÏ¢°´Ö÷Ìâtopic½øÐÐ·Ö²¼Ê½µÄ´æ´¢£¬Í¬Ê±Îª¶à¸öÏû·ÑÕßÌá¹©Êý¾Ý·þÎñ£¬Ã¿¸öÏû·ÑÕßÎ¬»¤Ò»¸öÖ¸Õë£¬
+²»Í¬µÄÏû·ÑÕß¿ÉÒÔÒÔ²»Í¬µÄ½ø¶È·ÃÎÊÍ¬Ò»¸öÖ÷Ìâ£¬¶ø»¥Ïà²»Ó°Ïì£»
+
+kafkaµÄ½Úµã±»³ÆÎªbroker£»Í¬Ò»¸ötopicµÄ¶à¸ö½ÚµãÍ¨¹ýleader£¨¿ØÖÆ½Úµã£©£¬follower·½Ê½ÔË×÷£»ËùÓÐ½ÚµãÒ»Æðµ½zookeeperÉÏ½øÐÐ×¢²á¿ØÖÆ½Úµã£¬Ö»ÓÐÒ»¸ö»á³É¹¦£¬
+ÆäËûµÄÊ§°ÜµÄ³ÉÎªfollower¡£Ò»Ì¨·þÎñÆ÷¿ÉÄÜÍ¬Ê±ÊÇÒ»¸ö·ÖÇøµÄleaderÁíÒ»¸ö·ÖÇøµÄfollower¡£ ÕâÑù¿ÉÒÔÆ½ºâ¸ºÔØ±ÜÃâËùÓÐµÄÇëÇó¶¼Ö»ÈÃÒ»Ì¨»òÕßÄ³¼¸Ì¨·þÎñÆ÷´¦Àí¡£
+Éú²úÕß¿ÉÒÔÀí½âÎªÏûÏ¢Ô´£¬Ô´Ô´²»¶Ï²úÉúÏûÏ¢£»ÕâÐ©ÏûÏ¢¿ÉÄÜ²»ÄÜ¼°Ê±±»ÏÂÓÎ´¦Àí£¬»òÕßÓÉÓÚÏÂÓÎ´¦ÀíËÙ¶È¸ú²»ÉÏÉÏÓÎµÄÉú²úËÙ¶È£¬ÐèÒªÒ»¸öÖÐ¼äÈÝÆ÷»º´æÕâÐ©ÏûÏ¢£»
+Ïû·ÑÕß¿ÉÒÔÊÇ¸÷ÖÖÊý¾Ý¿â£¬Êý¾Ý²Ö¿âµÈ³Ö¾Ã²ã×é¼þ£¬Ïû·ÑÄÜÁ¦Ïà¶Ô±È½ÏÎÈ¶¨ÇÒ²»¹»¿ì¡£
+kafkaÖÐµÄcosumergroup¿ÉÒÔÀí½âÎª£¬ÏÂÓÎÎªÁËÌá¸ßÏû·ÑËÙ¶È£¬Í¨¹ý×¢²á¼¯ÈºµÄ·½Ê½À´ÐÎ³ÉÏû·ÑÕß×é£¬ÕâÑù´ó¼ÒÏû·ÑÍ¬Ò»Ö÷ÌâÖÐµÄ²»Í¬²¿·Ö£¬²¢ÐÐÏû·Ñ£¬Ìá¸ß´¦ÀíËÙ¶È¡£
+
+==============================================================================
+¶ÑÅÅÐò£º
+http://blog.csdn.net/u014532901/article/details/78573556
+==============================================================================
+
+zb501 az520
+
 1.µ¹ÅÅË÷Òý£¬ÊÇ¹Ø¼ü×Ö-ÎÄµµ¾ØÕóµÄÒ»ÖÖ¾ßÌå´æ´¢ÐÎÊ½£»Í¨¹ýµ¹ÅÅË÷Òý¿ÉÒÔ¸ù¾Ýµ¥´Ê¿ìËÙ»ñÈ¡°üº¬Õâ¸öµ¥´ÊµÄÎÄµµÁÐ±í£»
 ==============================================================================
 2.http://www.cnblogs.com/ggjucheng/archive/2013/01/13/2858470.html
-linux awkº¯ÊýÏê½â¡£ ÎÄ±¾´¦Àí¹¤¾ß£¬Ä¬ÈÏ·Ö¸ô·ûÊÇ¿Õ¸ñ
+linux awkº¯ÊýÏê½â¡£ ÎÄ±¾´¦Àí¹¤¾ß£¬Ä¬ÈÏ·Ö¸ô·ûÊÇ¿Õ¸ñ£¬ÓÃÓÚÇÐ·ÖºóÍ³¼ÆÎÄ±¾¡£
 awk [-F  field-separator]  'commands'  input-file(s)
 awk '{pattern + action}' {filenames}
 pattern¿ÉÑ¡
@@ -86,7 +156,7 @@ freemarkerÔòÊÇÍ¨¹ýÒ»¸ö¹ýÂËÆ÷£¬°ÑÇëÇóµÄ.ftlÎÄ¼þÖÐµÄ±êÇ©Ìæ»»³ÉÊý¾Ýºó£¬°Ñ×îÖÕµÄHTML
 ä¯ÀÀÆ÷ÄÚÖÃjsÒýÇæ£¬·½±ã¶ÔÍøÒ³ÔªËØ×÷Ò»Ð©²Ù×÷£¬ÊµÏÖ¼òµ¥µÄ¶¯Ì¬ÍøÒ³Ð§¹û£»
 HTMLºÍCSS±»½âÎö×é¼þ½âÎöºó£¬Í¨¹ýäÖÈ¾×é¼þäÖÈ¾ÔÚÆÁÄ»ÉÏ£»
 css cascading style sheets ²ãµþÑùÊ½±í¡£Ãû×Ö¾ÍËµµÃºÜÇå³þÁË£¬ËùÓÐµÄÔªËØÊÇÒ»²ãÒ»²ãµþÔÚÒ»ÆðµÄÑùÊ½±í¡£×îºËÐÄµÄ¸ÅÄî¾ÍÊÇboxÄ£ÐÍ¡£
-Ïà¶Ô¶¨Î»¾ÍÊÇÏà¶ÔÓÚ¸¸ÔªËØ°´ÕÕ¶¨Î»²ÎÊý½øÐÐÆ«ÒÆ£»¾ø¶Ô¶¨Î»ÔòÊÇÍÑÀëÁËÎÄµµÁ÷£¬ÒÔµÚÒ»¸ö·Çstatic¶¨Î»µÄ¸¸ÔªËØ×óÉÏ½Ç×÷ÎªÔ­µã½øÐÐ¶¨Î»¡£
+Ïà¶Ô¶¨Î»¾ÍÊÇÏà¶ÔÓÚÔªËØ±¾ÉíµÄÎ»ÖÃ°´ÕÕ¶¨Î»²ÎÊý½øÐÐÆ«ÒÆ£»¾ø¶Ô¶¨Î»ÔòÍÑÀëÁËÎÄµµÁ÷£¬ÒÔµÚÒ»¸ö·Çstatic¶¨Î»µÄ¸¸ÔªËØ×óÉÏ½Ç×÷ÎªÔ­µã½øÐÐ¶¨Î»¡£
 inline£¬¾ÍÊÇÔÚÒ»ÐÐÀïÏÔÊ¾£¬Èç¹ûµ±Ç°ÐÐ×°²»ÏÂ£¬¾ÍÒÆµ½ÏÂÒ»ÐÐ¡£
 
 ==============================================================================
@@ -348,7 +418,11 @@ offºó£¬µ¥¶ÀµÄÎÄ¼þ¿ÉÒÔ·ÃÎÊ£¬Ë÷Òý»á±»forbidden
 ·Ö²¼Ê½»·¾³ÏÂ£¬²»ÊÊÓÃÍâ¼ü£¬´¥·¢Æ÷µÈ
 Ê¹ÓÃmavenÅägit£¬¼òÖ±ÁË¡£jar°ü²»ÔÚprojectÀïÃæ·Å£¬Ìá½»gitÊ±¾Í²»»áÀË·ÑµØ·½ÁË¡£
 ·ÖÖ§¿ª·¢£¬master·¢²¼£»branch
-MySQL¿ª·¢Èý½£¿Í
+MySQL¿ª·¢Èý½£¿Í£º
+1.generator ¸ù¾ÝÊý¾Ý¿â±í£¬Ö±½ÓÉú³Épojo,mybatis xml£¬daoµÈ¡£
+ÔÚmavenµÄpluginsÖÐÌí¼Ó²å¼þ£»½«generator-config.xmlºÍdatasource.properties·Åµ½×ÊÔ´ÎÄ¼þÏÂ¡£
+2.mybatis-plugin£¬¹ØÁªÀàºÍxmlÎÄ¼þ¡£
+3.mybatis-pagehelper£¬·ÖÒ³¡£
 pojo-bo-vo
 spring ¹Ù·½Àý×Ó£¬petclinic£¬greenhouse£¬showcase
 chrome²å¼þ£º
@@ -544,6 +618,10 @@ Shiro¶ÔÓÃ»§µÄÔ¼ÊøÒ²²ÉÓÃÁËÕâÑùµÄ·½Ê½¡£AuthenticationInfo´ú±íÁËÓÃ»§µÄ½ÇÉ«ÐÅÏ¢¼¯ºÏ£
 ºóÕß»ùÓÚ´úÀíÊµÏÖ£¬ÊôÓÚAOPµÄ·¶³ë¡£Èç¹ûÏ£ÍûÔÚWEB»·¾³ÖÐÊ¹ÓÃShiro±ØÐëÊ×ÏÈÔÚweb.xmlÎÄ¼þÖÐÅäÖÃ¡£
 subject Óëµ±Ç°ÓÃ»§°ó¶¨µÄÒ»¸öprojectÊµÀý¡£
 
+ÓÃ»§µÇÂ¼Ê±£¬Í¨¹ýrealm²éÑ¯ÓÃ»§¶ÔÏóµÄ½ÇÉ«ºÍÈ¨ÏÞÐÅÏ¢£¬´æÔÚÈ«¾ÖµÄsecurityManagerÖÐ£¬ËüÊÇÒ»¸öÈ«¾ÖµÄcontext£¬ÐèÒªÔÙÊ¹ÓÃÇ°Ö¸¶¨realm£¬ÒÔ±ãÈÃËüÖªµÀ´ÓÄÄÀï
+»ñÈ¡ÑéÖ¤µÄÊý¾Ý¡£ÓÃ»§µÇÂ¼Ê±realm¸ù¾ÝÓÃ»§Ìá¹©µÄÓÃ»§ÃûºÍÃÜÂë£¬
+=======================================
+=======================================
 shiro£ºÐèÒªÅäÖÃ¹ýÂËÆ÷£¬·ÅÔÚwebxmlÀï£»
            ÐèÒªspring£¬Ê¹ÓÃspring´úÀíµÄ¹ýÂËÆ÷£»
 	   ÐèÒªecache£¬ÐèÒª»º´æÒ»Ð©ÓÃ»§ºÍÈ¨ÏÞÐÅÏ¢£»
@@ -551,6 +629,25 @@ shiro£ºÐèÒªÅäÖÃ¹ýÂËÆ÷£¬·ÅÔÚwebxmlÀï£»
 	   realm¾ÍÊÇÓë×Ô¼ºÅäÖÃµÄÓÃ»§¡¢½ÇÉ«¡¢È¨ÏÞÐÅÏ¢½øÐÐ¶Ô½ÓµÄÇÅÁº¡£¼Ì³ÐrealmÀà£¬ÊµÏÖÓÃ»§ÈÏÖ¤ºÍÈ¨ÏÞÈÏÖ¤Á½¸ö·½·¨£¬¾ÍOKÁË¡£ÊÇ²»ÊÇÒâÏë²»µ½µÄ¼òµ¥¡£
 	   ÎªÊ²Ã´¶ÔÏó¿ÉÒÔ´æ¼¯ºÏ£¿ÒòÎªÀïÃæÓÐ¸ö¼¯ºÏµÄ³ÉÔ±±äÁ¿°¡£¬ÎÒ²Ù£¡
 
+	   °Ñ×Ô¼ºÊµÏÖrealmµÄ×ÓÀà£¬ÖØÐ´·½·¨Ö®ºó£¬ÔÚ³õÊ¼»¯Ê±Òª¸³Öµ¸øsecurityManager£¬¾Í¿ÉÒÔÓÃsecurity½øÐÐ£¬ÈÏÖ¤£¬ÊÚÈ¨£¬ÅÐ¶ÏµÄ²Ù×÷ÁË¡£
+=======================================
+spring security£ºÕâÁ½¸ö°²È«¿ò¼ÜÓÐµãÏñ£ºAuthenticationÈÏÖ¤¶ÔÏó£¬AuthorizationÊÚÈ¨¶ÔÏó¶¼ÓÐ¡£
+shiroµÄÈ¨ÏÞÔÚÅäÖÃÎÄ¼þÀïÃæ¸ã£¬Ê²Ã´×ÊÔ´¡¢urlÐèÒªÊ²Ã´È¨ÏÞ²ÅÄÜ·ÃÎÊ£»
+spring-securityÒ²ÊÇÕâÑùÅäÖÃ£»µ«ÊÇÈç¹û²»ÕâÑùÅäÖÃµÄ»°£¬¿ÉÒÔÊ¹ÓÃspringboot¸ã³ÉÃâÅäÖÃµÄ£¬ÐèÒªÔÙÐ´Ò»¸öÀà¡£
+Õâ¸öÀà¼Ì³Ð×Ô£ºWebSecurityConfigureAdapter£¬ÖØÐ´ËûµÄconfigure·½·¨£¬°ÑÅäÖÃµÄÈ¨ÏÞÐÅÏ¢¶Á½øsecurityConfigureÀï£¬Õâ¸ö¶ÔÏóÓÐµãÀàËÆshiroÀïÃæµÄsecurityManager
+
+AuthenticationProcessingFilter µÇÂ¼ÈÏÖ¤¹ýÂËÆ÷£¬À¹½ØÓÃ»§µÇÂ¼ÇëÇó£¬±ÈÈçµÇÂ¼½çÃæÌá½»µÄÇëÇó 
+AuthenticationManager ÈÏÖ¤×é¼þ   ProviderManager ÓÃ»§ÐÅÏ¢Ìá¹©Õß £¨²»Í¬µÄproviderµ÷ÓÃ²»Í¬·þÎñ£¬Êý¾Ý¿â£¬LDAP,XML£©
+ UserDetailsServiceÊÇproviderµÄÒ»ÖÖ£¬Ìá¹©ÓÃ»§ÐÅÏ¢£¬¸ù¾ÝÓÃ»§Ãû£»
+ÑéÖ¤Í¨¹ýºó£¬»á°ÑÓÃ»§È¨ÏÞÐÅÏ¢·â×°µ½User¶ÔÏóÀï£¬·Åµ½springµÄÈ«¾Ö»º´æSecurityContextHolder£¬ÒÔ±¸ºóÃæ·ÃÎÊ×ÊÔ´Ê±Ê¹ÓÃ¡£
+
+AbstractSecurityInterceptor ×ÊÔ´¹ÜÀíÀ¹½ØÆ÷ 
+µ÷ÓÃFilterInvocationSecurityMetadataSourceµÄ·½·¨»ñÈ¡À¹½ØurlËùÐèµÄÈ«²¿È¨ÏÞ£»  ¼ÓÔØÁË×ÊÔ´ÓëÈ¨ÏÞµÄËùÓÐ¶ÔÓ¦¹ØÏµ£¬Ìá¹©Ò»¸öÍ¨¹ý×ÊÔ´»ñÈ¡ËùÓÐÈ¨ÏÞµÄ·½·¨¡£
+accessDecisionManager ×ÊÔ´È¨ÏÞ¹ÜÀí×é¼þ£¬Í¨¹ýÈ«¾Ö»º´æ»ñÈ¡µ±Ç°ÓÃ»§µÄÈ¨ÏÞÐÅÏ¢£¬¸ù¾Ý²ßÂÔÅÐ¶ÏÓÃ»§ÊÇ·ñÓÐÈ¨ÏÞ·ÃÎÊ×ÊÔ´¡£
+
+
+=======================================
+=======================================
 freemaker£ºÊÇÒ»ÖÖÄ£°åÒýÇæ¡£°ÑÒ³ÃæµÄ¾²Ì¬²¿·Ö+ÓÃfreemarker±êÇ©×é³ÉµÄ¶¯Ì¬²¿·Ö£¬×ö³ÉÄ£°å£»ÔÚÓÃ»§ÇëÇó¶ÔÓ¦Ò³ÃæÊ±£¬freemarkerÒýÇæ½éÈë£¬
 °Ñ¶¯Ì¬ÄÚÈÝÌæ»»³ÉÇëÇóµÄÊý¾Ý£¬ÔÙ°Ñ×é×°ºÃµÄÒ³Ãæ·µ»Ø¸øÓÃ»§¡£
 ÅäºÏspringMVCÊ¹ÓÃÊ±£¬ÒýÈëspring-freemarkerÒÀÀµ°ü£¬ÔÚMVCÅäÖÃÒ³ÃæresolveÊ±£¬Ê¹ÓÃfreemarkerÌá¹©µÄ´¦ÀíÆ÷¼´¿É¡£
@@ -661,8 +758,9 @@ spring data jpa ËäÈ»ORM¿ò¼Ü¶¼ÊµÏÖÁËJPA¹æ·¶£¬µ«ÊÇÔÚ²»Í¬ORM¿ò¼ÜÖ®¼äÇÐ»»ÊÇÐèÒª±àÐ´µ
 Apache kafkaÊÇÏûÏ¢ÖÐ¼ä¼þµÄÒ»ÖÖ£»×÷ÎªÒ»¸öÏûÏ¢¶ÓÁÐµÄÓÅÖÊÊµÏÖ£¬
 Kafka½â¾öÁËÁ½¸ö·½ÏòµÄ¹Ø¼üÐèÇó£ºÒ»ÊÇ´óÏµÍ³ÏÂ¸÷²¿·ÖµÄ½âñîºÏ(decoupling)£¬¶þÊÇÇëÇóÓëÏìÓ¦²»¶Ô³ÆÇé¿öÏÂµÄÏ÷·å
 
-95Äêµ®Éú£»
-05Äêjava6£»
+96Äê£¬jdk1.0·¢²¼£»
+04Äêjava1.5·¢²¼£¬´úºÅtiger£¬¸Ä³Æjava5£»
+06ÄêÐû²¼¿ªÔ´¡£
 
 ACID£¬Ö¸Êý¾Ý¿âÊÂÎñÕýÈ·Ö´ÐÐµÄËÄ¸ö»ù±¾ÒªËØµÄËõÐ´¡£
 °üº¬£º
@@ -678,4 +776,25 @@ CAPÀíÂÛ¸æËßÎÒÃÇ£ºÒ»¸ö·Ö²¼Ê½ÏµÍ³²»¿ÉÄÜÍ¬Ê±Âú×ã
 ¿ÉÓÃÐÔ£¨A£ºAvailability£©ºÍ
 ·ÖÇøÈÝ´íÐÔ£¨P£ºPartition tolerance £©ÕâÈý¸ö»ù±¾ÐèÇó£¬×î¶àÖ»ÄÜÍ¬Ê±Âú×ãÆäÖÐÁ½Ïî¡£
 ==============================================================================
+Î»Í¼Ë÷Òý£º
+https://www.cnblogs.com/LBSer/p/3322630.html
+×ÖµäÀà£¬×Ö¶Î¿ÉÑ¡Ïî²»¶à£¬ÇÒ±ä»¯²»Æµ·±µÄÇé¿öÏÂÊ¹ÓÃ¡£
+Îª¸Ã×Ö¶ÎµÄÃ¿Ò»¸ö¿ÉÑ¡Ïî½¨Á¢Ò»¸öÓÉ01×é³ÉµÄÏòÁ¿£»
+ÔÚË÷Òý¸ÃÁÐÊ±¸ù¾ÝÌõ¼þ¶ÁÈ¡¶ÔÓ¦ÏòÁ¿¼´¿É£»
+Èç¹û»¹ÓÐÁíÍâÒ»¸ö×Ö¶Î²ÉÓÃÁËÎ»Í¼Ë÷Òý£¬¿ÉÒÔÖ±½ÓÓÃÁ½¸öÌõ¼þµÄÏòÁ¿½øÐÐÎ»ÔËËã¡£½á¹û¾ÍÊÇÂú×ãÌõ¼þµÄÁÐ¡£
+==============================================================================
+¶þ²æÊ÷£ºÃ¿¸ö·ÇÒ¶×Ó½Úµã×î´óÖ»ÓÐ2¸ö×Ó½ÚµãµÄÊ÷£»
+Âú¶þ²æÊ÷£ºÃ¿¸ö·ÇÒ¶×Ó½Úµã¶¼ÓÐ2¸ö×Ó½ÚµãµÄÊ÷£»
+ÍêÈ«¶þ²æÊ÷£º×óÓÒ×ÓÊ÷Éî¶È²î²»³¬¹ý1£¬ÇÒ×îÏÂ²ãµÄ½Úµã¶¼Ë³Ðò³öÏÖÔÚ×ó²à£»
+https://www.cnblogs.com/chengxiao/p/6129630.html ¶ÑÅÅÐò
+¶ÑÊÇ¾ßÓÐÒÔÏÂÐÔÖÊµÄÍêÈ«¶þ²æÊ÷£ºÃ¿¸ö½áµãµÄÖµ¶¼´óÓÚ»òµÈÓÚÆä×óÓÒº¢×Ó½áµãµÄÖµ£¬³ÆÎª´ó¶¥¶Ñ£»»òÕßÃ¿¸ö½áµãµÄÖµ¶¼Ð¡ÓÚ»òµÈÓÚÆä×óÓÒº¢×Ó½áµãµÄÖµ£¬³ÆÎªÐ¡¶¥¶Ñ¡£
+Æ½ºâ¶þ²æÊ÷£ºËüÊÇÒ» ¿Ã¿ÕÊ÷»òËüµÄ×óÓÒÁ½¸ö×ÓÊ÷µÄ¸ß¶È²îµÄ¾ø¶ÔÖµ²»³¬¹ý1£¬²¢ÇÒ×óÓÒÁ½¸ö×ÓÊ÷¶¼ÊÇÒ»¿ÃÆ½ºâ¶þ²æÊ÷
+ºìºÚÊ÷£ºÒ»ÖÖ×ÔÆ½ºâ¶þ²æ²éÕÒÊ÷¡£
+
+ÖÜ¿Ú£¬É½Ë®¿¤¸® 114.68346,33.60046
+==============================================================================
+nettyÌæ´úwebservice
+http://www.iteye.com/topic/1136769
+
+https://blog.csdn.net/MOTUI/article/details/52801281
 
